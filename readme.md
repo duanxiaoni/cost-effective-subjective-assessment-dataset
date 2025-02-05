@@ -1,4 +1,7 @@
-### Datasets for the paper
+### Datasets
+
+This dataset contains the annotations of toxicity evaluation on 120 online comments. 
+We proposed a perspective taking annotation method in our paper and collected perspective annotations from female and male annotators through Prolific in 2022. 
 
 - datat1.csv includes all (both female and male) annotators prespective taking annotation when taking female perspective.
 - datat2.csv includes all (both female and male) annotators prespective taking annotation when taking male perspective.
