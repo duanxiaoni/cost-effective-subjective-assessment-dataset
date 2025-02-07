@@ -3,7 +3,7 @@
 This dataset contains the annotations of toxicity evaluation on 120 online comments. 
 We proposed a perspective taking annotation method in our paper and collected perspective annotations from female and male annotators through Prolific in 2022. 
 
-#### comments.csv contains the information of online comments in our study.
+1. comments.csv contains the information of online comments in our study.
 - id: the ID of comment in our study.
 - comment_id: the identifier of comment in the dataset [[1]](#1)
 - text: the text of comment
@@ -11,7 +11,7 @@ We proposed a perspective taking annotation method in our paper and collected pe
 - pos_m: the aggregated toxicity rate (ground truth) of male annotators in the pilot study.
 
 
-#### formal_annotations.csv contains the collected human annotations in the formal experiment.
+2.  formal_annotations.csv contains the collected human annotations in the formal experiment.
 Features:
 - workerId: the identifier of annotators on Prolific. To protect the identity of annotators, we replace their identifiers with randomly generated strings.
 - comment: the ID of comment in our study.
@@ -28,12 +28,12 @@ Features:
 - gender: the annotator's gender. We only recruited female or male annotators in our study.
 - political: the annotator's political affiliation (Democrat, Republican and Independent).
 
-#### pilot_females.csv contains the collected annotations from **female** annotators in the pilot study. 
+3. pilot_females.csv contains the collected annotations from **female** annotators in the pilot study. 
 - workerId: the identifier of annotators on Prolific. To protect the identity of annotators, we replace their identifiers with randomly generated strings.
 - comment: the ID of comment in our study. 
 - answer: the annotations of female annotators in the pilot study. 1: toxic -1: non-toxic.
 
-#### pilot_males.csv contains the collected annotations from **male** annotators in the pilot study. 
+4. pilot_males.csv contains the collected annotations from **male** annotators in the pilot study. 
 - workerId: the identifier of annotators on Prolific. To protect the identity of annotators, we replace their identifiers with randomly generated strings.
 - comment: the ID of comment in our study. 
 - answer: the annotations of male annotators in the pilot study. 1: toxic -1: non-toxic.
