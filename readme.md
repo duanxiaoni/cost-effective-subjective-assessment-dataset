@@ -1,5 +1,7 @@
 ### Datasets
 
+This is the dataset of paper "Exploring the Cost-Effectiveness of Perspective Taking in Crowdsourcing Subjective Assessment: A Case Study of Toxicity Detection", to be published at NAACL 2025.
+ 
 This dataset contains the annotations of toxicity evaluation on 120 online comments. 
 We proposed a perspective taking annotation method in our paper and collected perspective annotations from female and male annotators through Prolific in 2022. 
 
@@ -27,15 +29,15 @@ We proposed a perspective taking annotation method in our paper and collected pe
 	- gender: the annotator's gender. We only recruited female or male annotators in our study.
 	- political: the annotator's political affiliation (Democrat, Republican and Independent).
 
-3. pilot_females.csv contains the collected annotations from **female** annotators in the pilot study. 
+3. pilot.annotations.csv contains the collected annotations from annotators in the pilot study. 
 	- workerId: the identifier of annotators on Prolific. To protect the identity of annotators, we replace their identifiers with randomly generated strings.
 	- comment: the ID of comment in our study. 
 	- answer: the direct annotation of female annotators in the pilot study. 1: toxic, -1: non-toxic.
+	- race: the annotator's race. 
+	- age: the annotator's age. 
+	- gender: the annotator's gender. We only recruited female or male annotators in our study.
+	- political: the annotator's political affiliation.
 
-4. pilot_males.csv contains the collected annotations from **male** annotators in the pilot study. 
-	- workerId: the identifier of annotators on Prolific. To protect the identity of annotators, we replace their identifiers with randomly generated strings.
-	- comment: the ID of comment in our study. 
-	- answer: the direct annotation of male annotators in the pilot study. 1: toxic, -1: non-toxic.
 
 #### Reference
 <a id="1">[1]</a> 
